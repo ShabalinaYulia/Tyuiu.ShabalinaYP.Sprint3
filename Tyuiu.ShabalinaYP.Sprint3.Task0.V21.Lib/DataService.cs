@@ -7,11 +7,11 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task0.V21.Lib
         {
             double res;
             res = 0;
-            for (int k = startValue; k < stopValue; k++)
+            for (int i = startValue; i <= stopValue; i++)
             {
-                res += ((Math.Pow(value, k) + (1 / 4)) * Math.Sin(k));
+                res = res + ((Math.Pow(value, i) + 0.25)*Math.Sin(i));
             }
-            return res;
+            return Math.Round(res, 3);
 
         }
     }
