@@ -9,7 +9,7 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task1.V14.Lib
             startValue = 1;
             while (startValue <= stopValue)
             {
-                res = res + ((Math.Pow(value, startValue) + (double)1 / startValue + 1) * Math.Cos(value));
+                res = res + ((Math.Pow(value, startValue) + (double)1 / (startValue + 1)) * Math.Cos(value));
                 startValue++;
             }
             return Math.Round(res, 3);
