@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint3;
+﻿using System.Transactions;
+using tyuiu.cources.programming.interfaces.Sprint3;
 namespace Tyuiu.ShabalinaYP.Sprint3.Task0.V21.Lib
 {
     public class DataService : ISprint3Task0V21
@@ -9,7 +10,7 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task0.V21.Lib
             res = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                res = res + ((Math.Pow(value, i) + 0.25)*Math.Sin(i));
+                res = res + ((Math.Pow(value, i) + (double)1/4) *Math.Sin(i));
             }
             return Math.Round(res, 3);
 
