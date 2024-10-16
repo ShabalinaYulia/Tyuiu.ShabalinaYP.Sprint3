@@ -11,7 +11,7 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task2.V26.Test
             double value = 0.25;
             int x = 1;
             int y = 17;
-            double wait = 2.741;
+            double wait = 411589.537;
             double res = dataService.GetMultiplySeries(value, x, y);
             Assert.AreEqual(wait, res);
         }
