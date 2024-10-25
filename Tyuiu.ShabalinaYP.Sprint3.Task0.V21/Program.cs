@@ -7,7 +7,17 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task0.V21
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
+            Console.WriteLine("Спринт #3 | Выполнил: Шабалина Ю. П. | ПКТб-24-1");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #3                                                               *");
+            Console.WriteLine("* Тема: Оператор цикла for                                                *");
+            Console.WriteLine("* Задание #0                                                              *");
+            Console.WriteLine("* Вариант #21                                                             *");
+            Console.WriteLine("* Выполнил: Шабалина Юлия Павловна | ПКТб-24-1                            *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая вычисляет сумму ряда                        *");
+            Console.WriteLine("* и печатает результат на экране                                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -22,7 +32,7 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task0.V21
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Значение: " + res);
+            Console.WriteLine("Сумма ряда: " + res);
             Console.ReadKey();
         }
     }

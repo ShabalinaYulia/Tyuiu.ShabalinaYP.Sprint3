@@ -7,6 +7,17 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task2.V26
         {
             DataService ds = new DataService();
 
+            Console.WriteLine("Спринт #3 | Выполнил: Шабалина Ю. П. | ПКТб-24-1");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #3                                                               *");
+            Console.WriteLine("* Тема: Оператор цикла do-while                                           *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #26                                                             *");
+            Console.WriteLine("* Выполнил: Шабалина Юлия Павловна | ПКТб-24-1                            *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая вычисляет произведение ряда                 *");
+            Console.WriteLine("* и печатает результат на экране                                          *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
@@ -21,7 +32,7 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task2.V26
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Значение: " + res);
+            Console.WriteLine("Произведение ряда: " + res);
             Console.ReadKey();
         }
     }
