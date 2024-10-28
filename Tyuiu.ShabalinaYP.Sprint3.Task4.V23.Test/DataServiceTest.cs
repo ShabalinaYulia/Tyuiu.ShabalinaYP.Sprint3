@@ -11,7 +11,7 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task4.V23.Test
             int start = -5;
             int end = 5;
             double res = ds.Calculate(start, end);
-            double wait = 244,656;
+            double wait = 244.656;
             Assert.AreEqual(wait,res);
 
 
