@@ -21,12 +21,12 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task0.V21
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите значение X:");
-            double x = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите значение Y:");
-            int y = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите значение Y:");
-            int z = Convert.ToInt32(Console.ReadLine());
+            double x = 1.5;
+            int y = 1;
+            int z = 13;
+            Console.WriteLine("Значение a: " + x);
+            Console.WriteLine("Значение начала шага: " + y);
+            Console.WriteLine("Значение конца шага: " + z);
             double res = ds.GetSumSeries(x, y, z);
 
             Console.WriteLine("***************************************************************************");

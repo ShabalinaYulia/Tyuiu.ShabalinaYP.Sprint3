@@ -21,10 +21,11 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task4.V23
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите начальное значение:");
-            int start = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Введите конечное значение:");
-            int end = Convert.ToInt32(Console.ReadLine());
+            int start = -5;
+            Console.WriteLine("Начальное значение: " + start);
+            int end = 5;
+            Console.WriteLine("Конечное значение: " + end);
+            
             double res = ds.Calculate(start, end);
 
             Console.WriteLine("***************************************************************************");

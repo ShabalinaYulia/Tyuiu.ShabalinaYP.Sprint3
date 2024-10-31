@@ -21,10 +21,10 @@ namespace Tyuiu.ShabalinaYP.Sprint3.Task3.V4
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите строку:");
-            string value = Console.ReadLine();
-            Console.WriteLine("Введите символ:");
-            char item = Convert.ToChar(Console.ReadLine());
+            string value = "plkjjdw cvjkl";
+            Console.WriteLine("Строка: " + value);
+            char item = 'j';
+            Console.WriteLine("Символ: " + item);
             string res = ds.DeleteCharInString(value, item);
 
             Console.WriteLine("***************************************************************************");
